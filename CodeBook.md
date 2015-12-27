@@ -34,9 +34,10 @@ c) Test data
   * **test/X_train.txt:** contains the test data set in 561 variables  
   
 d) Tidy data
-  * **tidydata.txt:** from the extracted file containing means and standard deviations, this file contains the average of each variable for each activity and each subject
+  * **tidydata.txt:** from the extracted data frame containing means and standard deviations, this file contains the average of each variable for each activity and each subject
   
 ## Variables
+
 
 ## Transformation, data cleaning, and results generation steps
 

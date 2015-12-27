@@ -18,20 +18,20 @@ Data directory: data/UCI HAR Dataset/
 
 ## Files
 a) General definitions
-  * features.txt: Contains the train and test data set column names
-  * activity_labels.txt: Contains the names of the measured activities performed by the train and test subjects (WALKING, SITTING, STANDING, etc.)
-  * features_info.txt: Contains a description of the data set variables
-  * README.txt: The data set code book
+  * **features.txt:** contains the train and test data set column names
+  * **activity_labels.txt:** contains the names of the measured activities performed by the train and test subjects (WALKING, SITTING, STANDING, etc.)
+  * **features_info.txt:** contains a description of the data set variables
+  * **README.txt:** the data set code book
 
 b) Train data  
-  * train/subject_train.txt: Contains the subject identifiers for each obervation in the train data set  
-  * train/y_train.txt: Contains the activity identifiers for each obervation in the train data set  
-  * train/X_train.txt: Contains the train data set in 561 variables  
+  * train/subject_train.txt: contains the subject identifiers for each obervation in the train data set  
+  * train/y_train.txt: contains the activity identifiers for each obervation in the train data set  
+  * train/X_train.txt: contains the train data set in 561 variables  
 
 c) Test data  
-  * test/subject_train.txt: Contains the subject identifiers for each obervation in the test data set  
-  * test/y_train.txt: Contains the activity identifiers for each obervation in the test data set  
-  * test/X_train.txt: Contains the test data set in 561 variables  
+  * test/subject_train.txt: contains the subject identifiers for each obervation in the test data set  
+  * test/y_train.txt: contains the activity identifiers for each obervation in the test data set  
+  * test/X_train.txt: contains the test data set in 561 variables  
   
 d) Tidy data
 

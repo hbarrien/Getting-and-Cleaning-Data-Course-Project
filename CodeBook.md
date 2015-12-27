@@ -57,14 +57,14 @@ d) Tidy data
 3. Download and unzip the data files. Overwrite exisiting file, if any
 4. Set the working directory name for this project
 5. Read the Features and Activitiy Labels file names
-6. Train data
+6. Train data  
    6.1. Set the train Subjects, Activity, and Data file names  
    6.2. Read train files  
    6.3. Change the train Subjects and Activity column names  
    6.4. Use descriptive activity names to name the activities in the data set  
    6.5. Change train data set column names  
    6.6. Column-bind the train Subjects, Activity, and Data files  
-7. Test data
+7. Test data  
    7.1. Set the test Subjects, Activity, and Data file names  
    7.2. Read test files  
    7.3. Change the test Subjects and Activity column names  

@@ -14,13 +14,27 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Data download information
 Data URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+Data directory: working directory + "data/UCI HAR Dataset/"
 
 ## Files
-a) Train data  
+a) General definitions
+  * features.txt: Contains the train and test data set column names
+  * activity_labels.txt: Contains the names of the measured activities performed by the train and test subjects
 
-b) Test data  
+b) Train data  
+  * train/subject_train.txt: Contains the subject identifiers for each obervation in the train data set  
+  * train/y_train.txt: Contains the activity identifiers for each obervation in the train data set  
+  * train/X_train.txt: Contains the train data set in 561 variables  
+
+c) Test data  
+  * test/subject_train.txt: Contains the subject identifiers for each obervation in the test data set  
+  * test/y_train.txt: Contains the activity identifiers for each obervation in the test data set  
+  * test/X_train.txt: Contains the test data set in 561 variables  
+  
+d) Tidy data
 
 ## Variables
 
 ## Transformation, data cleaning, and results generation steps
 
+## Solution R script

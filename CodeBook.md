@@ -24,14 +24,14 @@ a) General definitions
   * **README.txt:** the data set code book
 
 b) Train data  
-  * train/subject_train.txt: contains the subject identifiers for each obervation in the train data set  
-  * train/y_train.txt: contains the activity identifiers for each obervation in the train data set  
-  * train/X_train.txt: contains the train data set in 561 variables  
+  * **train/subject_train.txt:** contains the subject identifiers for each obervation in the train data set  
+  * **train/y_train.txt:** contains the activity identifiers for each obervation in the train data set  
+  * **train/X_train.txt:** contains the train data set in 561 variables  
 
 c) Test data  
-  * test/subject_train.txt: contains the subject identifiers for each obervation in the test data set  
-  * test/y_train.txt: contains the activity identifiers for each obervation in the test data set  
-  * test/X_train.txt: contains the test data set in 561 variables  
+  * **test/subject_train.txt:** contains the subject identifiers for each obervation in the test data set  
+  * **test/y_train.txt:** contains the activity identifiers for each obervation in the test data set  
+  * **test/X_train.txt:** contains the test data set in 561 variables  
   
 d) Tidy data
 

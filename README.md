@@ -7,7 +7,7 @@ You will be required to submit: 1) a tidy data set as described below, 2) a link
 
 You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
 
-## Requirements for the solution R script
+## Solution equirements
 You should create one R script called run_analysis.R that does the following.
 
 1. Merges the training and the test sets to create one data set.
@@ -16,6 +16,7 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Location of the solution R script
+## Location of the solution run_analysis.R script
 
-## Data examples
+
+## Results - tidy data examples

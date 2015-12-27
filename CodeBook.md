@@ -13,8 +13,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 2015-12-27  
 
 ## Data download information
+Data URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 ## Files
+a) Train data  
+
+b) Test data  
 
 ## Variables
 

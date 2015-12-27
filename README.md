@@ -219,7 +219,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
  $ angle(Y,gravityMean)                           : num  0.18 0.18 0.181 0.182 0.185 ...  
  $ angle(Z,gravityMean)                           : num  -0.0586 -0.0543 -0.0491 -0.0477 -0.0439 ...  
   
-### c) HEAD of the extratced data set containing means and standard deviations (showing the first 5 columns)
+### c) HEAD of the extracted data set containing means and standard deviations (showing the first 5 columns)
 > head(extractedDT[,1:5], 50)  
    Subject Activity timeBodyAccelerator-Mean-X timeBodyAccelerator-Mean-Y timeBodyAccelerator-Mean-Z  
 1        1 STANDING                 0.28858451               -0.020294171                -0.13290514  

@@ -19,7 +19,9 @@ Data directory: data/UCI HAR Dataset/
 ## Files
 a) General definitions
   * features.txt: Contains the train and test data set column names
-  * activity_labels.txt: Contains the names of the measured activities performed by the train and test subjects
+  * activity_labels.txt: Contains the names of the measured activities performed by the train and test subjects (WALKING, SITTING, etc.)
+  * features_info.txt: Contains a description of the data set variables
+  * README.txt: The data set code book
 
 b) Train data  
   * train/subject_train.txt: Contains the subject identifiers for each obervation in the train data set  

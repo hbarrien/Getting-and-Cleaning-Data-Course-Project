@@ -50,7 +50,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
 
 ## Results - tidy data examples
 
-### a) STR of the merged train and test data sets
+#### a) STR of the merged train and test data sets
 > str(mergedDT)  
 'data.frame':	10299 obs. of  563 variables:  
  $ Subject                             : int  1 1 1 1 1 1 1 1 1 1 ...  
@@ -154,7 +154,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
  $ tBodyAccJerk-energy()-X             : num  -1 -1 -1 -1 -1 ...  
   [list output truncated]  
   
-### b) STR of the extracted data set containing means and standard deviations
+#### b) STR of the extracted data set containing means and standard deviations
 > str(extractedDT)  
 'data.frame':	10299 obs. of  88 variables:  
  $ Subject                                        : int  1 1 1 1 1 1 1 1 1 1 ...  
@@ -246,7 +246,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
  $ angle(Y,gravityMean)                           : num  0.18 0.18 0.181 0.182 0.185 ...  
  $ angle(Z,gravityMean)                           : num  -0.0586 -0.0543 -0.0491 -0.0477 -0.0439 ...  
   
-### c) HEAD of the extracted data set containing means and standard deviations (showing the first 5 columns)
+#### c) HEAD of the extracted data set containing means and standard deviations (showing the first 5 columns)
 > head(extractedDT[,1:5], 50)  
    Subject Activity timeBodyAccelerator-Mean-X timeBodyAccelerator-Mean-Y timeBodyAccelerator-Mean-Z  
 1        1 STANDING                 0.28858451               -0.020294171                -0.13290514  
@@ -300,7 +300,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
 49       1  SITTING                 0.27394057               -0.013147584                -0.10543517  
 50       1  SITTING                 0.27930326               -0.020521383                -0.11323643  
 
-### d) STR of the export tidy data file
+#### d) STR of the export tidy data file
 > str(tidyData)  
 'data.frame':	180 obs. of  88 variables:  
  $ Subject                                        : int  1 1 1 1 1 1 2 2 2 2 ...  
@@ -392,7 +392,7 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
  $ angle(Y,gravityMean)                           : num  0.277 0.3348 0.2672 -0.0605 0.2702 ...  
  $ angle(Z,gravityMean)                           : num  0.0689 0.0742 0.065 -0.218 0.0123 ...  
 
-### e) HEAD of the export tidy data file (showing the first 5 columns)
+#### e) HEAD of the export tidy data file (showing the first 5 columns)
 > head(tidyData[,1:5], 20)  
     Subject           Activity timeBodyAccelerator-Mean-X timeBodyAccelerator-Mean-Y timeBodyAccelerator-Mean-Z  
 1         1            WALKING                  0.2773308               -0.017383819                -0.11114810  
@@ -415,4 +415,3 @@ Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course
 153       3             LAYING                  0.2755169               -0.018955679                -0.10130048  
 4         4            WALKING                  0.2785820               -0.014839948                -0.11140306  
 34        4   WALKING_UPSTAIRS                  0.2708767               -0.031980430                -0.11421946  
-

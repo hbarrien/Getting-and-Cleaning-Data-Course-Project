@@ -24,7 +24,7 @@ Code book location:
 ## Results - tidy data examples
 
 ### a) STR of the merged train and test data sets
-> str(extractedDT)  
+ > str(extractedDT)  
 'data.frame':	10299 obs. of  88 variables:  
  $ Subject                                        : int  1 1 1 1 1 1 1 1 1 1 ...  
  $ Activity                                       : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 5 5 5 5 5 5 5 5 5 5 ...  

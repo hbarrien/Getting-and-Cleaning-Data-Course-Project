@@ -42,11 +42,11 @@ d) Tidy data
   * **trainSubjectsDT:** contains the subject identifiers for each observation in trainSetDT
   * **trainActivityDT:** contains the activity identifiers for each observation in trainSetDT
   * **trainSetDT:** contains the train data in 561 variables
-  * **trainMerge:** contains the train data in 563 variables (the original 561 plus the subject and activity variables)
+  * **trainMerge:** contains the merged train data in 563 variables (the original 561 plus the subject and activity variables)
   * **testSubjectsDT:** contains the subject identifiers for each observation in testSetDT
   * **testActivityDT:** contains the activity identifiers for each observation in testSetDT
   * **testSetDT:** contains the test data in 561 variables
-  * **testMerge:** contains the test data in 563 variables (the original 561 plus the subject and activity variables)
+  * **testMerge:** contains the merged test data in 563 variables (the original 561 plus the subject and activity variables)
   * **mergedDT:** contains a data merge involving trainMerge and testMerge
   * **extractedDT:** contains an extract from mergedDT, composed of the subject and activity variables plus all mean and standard deviation variables
   * **tidyData:** contains a report extracted from extractedDT

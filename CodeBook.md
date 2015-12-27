@@ -51,7 +51,29 @@ d) Tidy data
   * **extractedDT:** contains an extract from mergedDT, composed of the subject and activity variables plus all mean and standard deviation variables
   * **tidyData:** contains a report extracted from extractedDT
 
-## Transformation, data cleaning, and results generation steps
+## Data collection, transformation, cleaning, and results generation steps
+1. Set the download URL, the download directory name, the downloaded zip file name, and resulting (unzipped) data directory name
+2. Make sure the download directory exists
+3. Download and unzip the data files. Overwrite exisiting file, if any
+4. Set the working directory name for this project
+5. Read the Features and Activitiy Labels file names
+6. Set the train Subjects, Activity, and Data file names
+7. Read train files
+8. Change the train Subjects and Activity column names
+9. Use descriptive activity names to name the activities in the data set
+10. Change train data set column names
+11. Column-bind the train Subjects, Activity, and Data files
+12. Set the test Subjects, Activity, and Data file names
+13. Read test files
+14. Change the test Subjects and Activity column names
+15. Use descriptive activity names to name the activities in the data set
+16. Change test data set column names
+17. Column-bind the test Subjects, Activity, and Data files
+18. Merge the train and test data tables
+19. Remove Activity NAs reported during the merge
+20. Extract the means and standard deviations features for each measurement
+21. Appropriately label the data set with descriptive variable names
+22. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ## Solution R script
 Script name: run_analysis.R  

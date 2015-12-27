@@ -36,7 +36,7 @@ c) Test data
 d) Tidy data
   * **tidydata.txt:** from the extracted data frame containing means and standard deviations, this file contains the average of each variable for each activity and each subject
   
-## Variables
+## R script variables
   * **featuresDT:** contains the test and train variable names
   * **activityLabelsDT:** contains the activity names
   * **trainSubjectsDT:** contains the subject identifiers for each observation in trainSetDT

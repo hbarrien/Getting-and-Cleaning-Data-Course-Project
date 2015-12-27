@@ -19,7 +19,7 @@ c) You should also include a README.md in the repo with your scripts. This repo 
 ## Solution
 R script name: run_analysis.R  
 R script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R  
-Code book location:  
+Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md  
 
 ## Results - tidy data examples
 

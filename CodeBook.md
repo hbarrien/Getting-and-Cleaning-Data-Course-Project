@@ -14,7 +14,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Data download information
 Data URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
-Data directory: working directory + "data/UCI HAR Dataset/"
+Data directory: data/UCI HAR Dataset/
 
 ## Files
 a) General definitions

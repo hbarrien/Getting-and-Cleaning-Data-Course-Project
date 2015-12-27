@@ -21,6 +21,33 @@ R script name: run_analysis.R
 R script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R  
 Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md  
 
+## Data collection, transformation, cleaning, and results generation steps
+1. Set the download URL, the download directory name, the downloaded zip file name, and resulting (unzipped) data directory name
+2. Make sure the download directory exists
+3. Download and unzip the data files. Overwrite exisiting file, if any
+4. Set the working directory name for this project
+5. Read the Features and Activitiy Labels file names
+6. Train data  
+   6.1. Set the train Subjects, Activity, and Data file names  
+   6.2. Read train files  
+   6.3. Change the train Subjects and Activity column names  
+   6.4. Use descriptive activity names to name the activities in the data set  
+   6.5. Change train data set column names  
+   6.6. Column-bind the train Subjects, Activity, and Data files  
+7. Test data  
+   7.1. Set the test Subjects, Activity, and Data file names  
+   7.2. Read test files  
+   7.3. Change the test Subjects and Activity column names  
+   7.4. Use descriptive activity names to name the activities in the data set  
+   7.5. Change test data set column names  
+   7.6. Column-bind the test Subjects, Activity, and Data files  
+8. Merge the train and test data tables  
+9. Remove Activity NAs reported during the merge  
+10. Means and standard deviations data table  
+   10.1. Extract the means and standard deviations features for each measurement  
+   10.2. Appropriately label the data set with descriptive variable names  
+11. From the means and standard deviations data tabe, create a second, independent tidy data set with the average of each variable for each activity and each subject  
+
 ## Results - tidy data examples
 
 ### a) STR of the merged train and test data sets

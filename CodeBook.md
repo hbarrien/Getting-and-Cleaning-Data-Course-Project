@@ -37,7 +37,19 @@ d) Tidy data
   * **tidydata.txt:** from the extracted data frame containing means and standard deviations, this file contains the average of each variable for each activity and each subject
   
 ## Variables
-
+  * featuresDT: contains the test and train variable names
+  * activityLabelsDT: contains the activity names
+  * trainSubjectsDT: contains the subject identifiers for each observation in trainSetDT
+  * trainActivityDT: contains the activity identifiers for each observation in trainSetDT
+  * trainSetDT: contains the train data in 561 variables
+  * trainMerge: contains the train data in 563 variables (the original 561 plus the subject and activity variables)
+  * testSubjectsDT: contains the subject identifiers for each observation in testSetDT
+  * testActivityDT: contains the activity identifiers for each observation in testSetDT
+  * testSetDT: contains the test data in 561 variables
+  * testMerge: contains the test data in 563 variables (the original 561 plus the subject and activity variables)
+  * mergedDT: contains a data merge involving trainMerge and testMerge
+  * extractedDT: contains an extract from mergedDT, composed of the subject and activity variables plus all mean and standard deviation variables
+  * tidyData: contains a report extracted from extractedDT
 
 ## Transformation, data cleaning, and results generation steps
 

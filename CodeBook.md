@@ -54,5 +54,5 @@ d) Tidy data
 ## Transformation, data cleaning, and results generation steps
 
 ## Solution R script
-Script name: run_analysis.R
-Script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R
+Script name: run_analysis.R  
+Script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R  

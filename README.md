@@ -21,7 +21,7 @@ R script name: run_analysis.R
 R script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R  
 Code book location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/CodeBook.md  
 
-### Data collection, transformation, cleaning, and results generation steps  
+####   Data collection, transformation, cleaning, and results generation steps  
 1. Set the download URL, the download directory name, the downloaded zip file name, and resulting (unzipped) data directory name
 2. Make sure the download directory exists
 3. Download and unzip the data files. Overwrite exisiting file, if any

@@ -19,7 +19,7 @@ You should create one R script called run_analysis.R that does the following.
 ## Solution
 R script name: run_analysis.R
 R script location: https://github.com/hbarrien/Getting-and-Cleaning-Data-Course-Project/blob/master/run_analysis.R
-Code book location: 
+Code book location: a
 
 ## Results - tidy data examples
 

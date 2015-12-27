@@ -73,9 +73,10 @@ d) Tidy data
    7.6. Column-bind the test Subjects, Activity, and Data files  
 8. Merge the train and test data tables  
 9. Remove Activity NAs reported during the merge  
-10. Extract the means and standard deviations features for each measurement  
-11. Appropriately label the data set with descriptive variable names
-12. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+10. Means and standard deviations data tabe
+   10.1. Extract the means and standard deviations features for each measurement  
+   10.2. Appropriately label the data set with descriptive variable names
+11. From the means and standard deviations data tabe, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 ## Solution R script
 Script name: run_analysis.R  
